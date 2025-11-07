@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nomerus Plates — Эксклюзивные номера для тех, кто не шумит, а заявляет</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ClashGrotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="scroll-container" id="scrollContainer">
+    <div class="scroll-content" id="scrollContent">
+      <section class="hero" id="home">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Премиум авто с эксклюзивным номером" class="hero-bg">
+        <div class="container">
+          <div class="hero-content fade-in">
+            <h1>Эксклюзивные номера <br>для тех, кто не шумит, а заявляет</h1>
+            <p>Эксклюзивные автомобильные номера — не нарушение, а утверждение статуса. Юридически легальные. Только для тех, кто ценит детали.</p>
+            <a href="#collections" class="smooth-scroll btn">Смотреть коллекции</a>
+          </div>
+        </div>
+      </section>
+      <section class="collections section" id="collections">
+        <div class="container">
+          <h2>Наши серии</h2>
+          <div class="collections-grid">
+            <div class="plate-card fade-in delay-1">
+              <div class="plate-img carbon"></div>
+              <div class="plate-info">
+                <h3>Carbon Edge</h3>
+                <p>Матовая табличка с карбоновой обводкой. Лазерная гравировка символов. Вес — 180 г.</p>
+                <a href="#" class="btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="plate-card fade-in delay-2">
+              <div class="plate-img gold"></div>
+              <div class="plate-info">
+                <h3>Luxe Foil</h3>
+                <p>Тонкая золотая фольга по контуру. Опционально — инициалы в углу. Для Mercedes, Porsche, Rolls-Royce.</p>
+                <a href="#" class="btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="plate-card fade-in delay-3">
+              <div class="plate-img flag"></div>
+              <div class="plate-info">
+                <h3>Flag Luxe</h3>
+                <p>Флаг страны в минималистичной вышивке (ОАЭ, Швейцария, РФ). Не нарушает ГОСТ — только эстетика.</p>
+                <a href="#" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="process section" id="how-it-works">
+        <div class="container">
+          <h2>Как это работает</h2>
+          <div class="steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <h3>Выберите</h3>
+              <p>Готовый номер из коллекции или создайте свой: шрифт, обводка, флаг, цвет фона.</p>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <h3>Напишите</h3>
+              <p>Отправьте пример или свой дизайн номера в WhatsApp</p>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <h3>Получите</h3>
+              <p>Доставка по РФ за 5 дней. Установка в партнёрских сервисах — бесплатно.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="constructor section" id="constructor">
+        <div class="container">
+          <h2 style="text-align:center; margin-bottom: 2rem;">Создайте свой номер</h2>
+          <div class="constructor-preview">
+            <div class="car-preview">
+              <div class="plate-preview" id="previewText">A 777 XX</div>
+            </div>
+            <div class="controls">
+              <div class="control-group">
+                <label for="prefix">Буквы</label>
+                <select id="prefix">
+                  <option>A</option>
+                  <option>M</option>
+                  <option>X</option>
+                  <option>R</option>
+                  <option>L</option>
+                </select>
+              </div>
+              <div class="control-group">
+                <label for="number">Цифры</label>
+                <select id="number">
+                  <option>777</option>
+                  <option>001</option>
+                  <option>100</option>
+                  <option>999</option>
+                  <option>133</option>
+                </select>
+              </div>
+              <div class="control-group">
+                <label for="suffix">Окончание</label>
+                <select id="suffix">
+                  <option>XX</option>
+                  <option>OW</option>
+                  <option>SK</option>
+                  <option>RUS</option>
+                  <option>GT</option>
+                </select>
+              </div>
+              <div class="control-group">
+                <label>&nbsp;</label>
+                <a href="#" class="btn" style="width:100%">В корзину</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="container">
+          <p>Nomerus Plates — это не про нарушение. Это про то, что даже в мелочах можно выразить себя. Все номера сертифицированы и соответствуют требованиям ГИБДД.</p>
+          <div class="social">
+            <a href="#">Instagram</a>
+            <a href="#">Telegram</a>
+            <a href="#">WhatsApp</a>
+          </div>
+          <p style="margin-top: 30px; font-size: 0.85rem; color: #555;">© 2025 Nomerus Plates. Уфа, Москва, СПб. Доставка по РФ и СНГ.</p>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+
+  <a href="#home" id="backToTop" class="smooth-scroll">↑</a>
+
+</body>
+</html>
